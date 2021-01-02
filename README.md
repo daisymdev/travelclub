@@ -4,8 +4,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## How Do I Use It? 
 Travel Club app has many functionalities available. Deploy this application locally to your machine and start using the following endpoints avaialble. Here are a few:
 
+All flight numbers and it's corresponding details will be retrieved. 
 ```java 
 GET http://localhost:8080/flight_numbers
+```
+The expected payload response will look like: 
+
+
+All itineraries and it's corresponding details will be retrieved. 
+```java 
+GET http://localhost:8080/itinerary
 ```
 
 ## Contributing
